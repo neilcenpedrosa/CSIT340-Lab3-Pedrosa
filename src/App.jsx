@@ -1,6 +1,7 @@
 import Navbar from "./components/NavBar"
 import Hero from "./components/Hero"
 import AboutSection from "./components/AboutSection"
+import SkillsSection from "./components/SkillsSection"
 export default function App(){
   return (
     <>
@@ -8,7 +9,9 @@ export default function App(){
     <Hero />
     <main>
      <AboutSection /> 
+     <SkillsSection />
     </main>
+
     </>
   )
 }
