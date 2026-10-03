@@ -5,6 +5,7 @@ import SkillsSection from "./components/SkillsSection"
 import ProjectsSection from "./components/ProjectsSection"
 import ExperienceSection from "./components/ExperienceSection"
 import ContactSection from "./components/ContactSection"
+import Footer from "./components/Footer"
 export default function App(){
   return (
     <>
@@ -17,7 +18,7 @@ export default function App(){
      <ExperienceSection />
      <ContactSection />
     </main>
-
+    <Footer />
     </>
   )
 }
